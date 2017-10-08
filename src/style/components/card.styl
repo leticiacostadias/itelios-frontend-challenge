@@ -1,0 +1,38 @@
+.card
+    border $main-border
+    padding-bottom 20px !important
+    padding-top 30px !important
+    transition background-image 0.4s ease-in
+
+    img
+        width 175px
+
+    &__title
+        @extend .text
+        color $gray-primary
+        font-weight normal
+
+    &__description
+        @extend .text
+        color $gray-secondary
+        line-height 1.7
+        margin 0
+
+    &__price
+        @extend .price
+        color $blue
+
+    > .btn
+        height 0px
+        padding 0
+        opacity 0
+        transition height 0.1s ease-out, box-shadow 0.3s ease-out
+        will-change height
+
+    &:hover
+        background-image linear-gradient($gradient-gray 30%, $white 65%)
+
+        > .btn
+            height 57px
+            padding 5px 15px 15px 20px
+            opacity 1

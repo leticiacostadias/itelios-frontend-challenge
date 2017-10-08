@@ -1,0 +1,32 @@
+*
+    box-sizing border-box
+
+.container
+    margin 0 auto
+    max-width 1236px
+    width 100%
+
+.quarter
+    width 25%
+
+.half
+    width 50%
+
+.three-quarters
+    width 75%
+
+.quarter, .half, .three-quarters
+    display inline-block
+    padding 0 30px
+
+    @media (max-width: $sm) {
+      width 100%
+    }
+
+.align-center
+    text-align center
+
+// .clearfix
+//     &:after, &:before
+//         content '',
+//         display table

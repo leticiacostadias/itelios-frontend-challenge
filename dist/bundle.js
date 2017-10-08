@@ -111,10 +111,10 @@ if(false) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
 // imports
-
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:400,700);", ""]);
 
 // module
-exports.push([module.i, "body {\n  background-color: #800000;\n}\n", ""]);
+exports.push([module.i, ".add-cart {\n  width: 30px;\n  height: 30px;\n}\n.title,\n.btn {\n  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;\n  font-weight: bold;\n}\n.title--big,\n.btn--big {\n  font-size: 1.5rem;\n}\n.title--small,\n.btn--small,\n.btn {\n  font-size: 1.2rem;\n}\n.text,\n.card__title,\n.card__description {\n  font-family: 'Roboto', Helvetica, Arial, sans-serif;\n  font-size: 1rem;\n}\n.price,\n.card__price {\n  font-family: 'Roboto', Helvetica, Arial, sans-serif;\n  font-weight: bold;\n}\n.price--big,\n.card__price--big {\n  font-size: 1.3rem;\n}\n.price--small,\n.card__price--small {\n  font-size: 1.1rem;\n}\n.btn {\n  border: 1px solid #d4d2d2;\n  color: #353f4f;\n  display: block;\n  padding: 5px 15px 15px 20px;\n  text-decoration: none;\n}\n.btn > svg {\n  fill: #353f4f;\n  margin-left: 10px;\n  position: relative;\n  top: 8px;\n}\n.btn:hover {\n  box-shadow: inset 10px 0 0 #f60;\n  color: #1f2125 !important;\n}\n.btn:hover > svg {\n  fill: #f60;\n}\n.card {\n  border: 1px solid #d4d2d2;\n  padding-bottom: 20px !important;\n  padding-top: 30px !important;\n  transition: background-image 0.4s ease-in;\n}\n.card img {\n  width: 175px;\n}\n.card__title {\n  color: #303132;\n  font-weight: normal;\n}\n.card__description {\n  color: #5e6774;\n  line-height: 1.7;\n  margin: 0;\n}\n.card__price {\n  color: #353f4f;\n}\n.card > .btn {\n  height: 0px;\n  padding: 0;\n  opacity: 0;\n  transition: height 0.1s ease-out, box-shadow 0.3s ease-out;\n  will-change: height;\n}\n.card:hover {\n  background-image: linear-gradient(#f4f4f4 30%, #fff 65%);\n}\n.card:hover > .btn {\n  height: 57px;\n  padding: 5px 15px 15px 20px;\n  opacity: 1;\n}\n* {\n  box-sizing: border-box;\n}\n.container {\n  margin: 0 auto;\n  max-width: 1236px;\n  width: 100%;\n}\n.quarter {\n  width: 25%;\n}\n.half {\n  width: 50%;\n}\n.three-quarters {\n  width: 75%;\n}\n.quarter,\n.half,\n.three-quarters {\n  display: inline-block;\n  padding: 0 30px;\n}\n@media (max-width: 768px) {\n  .quarter,\n  .half,\n  .three-quarters {\n    width: 100%;\n  }\n}\n.align-center {\n  text-align: center;\n}\n", ""]);
 
 // exports
 

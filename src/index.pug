@@ -1,8 +1,41 @@
 doctype html
 html(lang="pt-br")
   head
+    meta(name="viewport" content="initial-scale=1, maximum-scale=1")
     meta(charset="utf-8")
     title=pageTitle
   body
-    p
-      | Teste
+    article.container
+      div.quarter.card
+        div.align-center
+          img(src="/images/apple-macbook-air-13-core-i5-16ghz-8gb-128gb-ssd-mmgf2-11514560.jpg")
+        h3.card__title
+          | Tablet Samsung Galaxy Tab2 7.0 P3100 Branco com Tela 7,0”, Processador Dual Core...
+        p.card__description
+          | Por:
+          span.card__price.price--big
+            |  R$ 1.199,00
+          br
+          | ou
+          span.card__price.price--small
+            |  12x de R$99,92
+          |  sem juros
+        a.btn
+          | adicionar ao carrinho
+          svg.add-cart
+            use(xlink:href="sprite.svg#add-cart")
+      div.quarter
+        div.btn
+          | adicionar ao carrinho
+          svg.add-cart
+            use(xlink:href="sprite.svg#add-cart")
+      div.quarter
+        div.btn
+          | adicionar ao carrinho
+          svg.add-cart
+            use(xlink:href="sprite.svg#add-cart")
+      div.quarter
+        div.btn
+          | adicionar ao carrinho
+          svg.add-cart
+            use(xlink:href="sprite.svg#add-cart")
