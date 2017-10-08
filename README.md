@@ -8,6 +8,6 @@ O servidor deverá estar na [porta 8080](http://localhost:8080/)
 
 - Webpack: Para compilação de todo o código!
 - Babel: Transpilando ES6 para ES5
-- Pug: Mais para facilitar testes
-- Stylus: Meu pré-processador favorito
+- Pug: Mais para facilitar o desenvolvimento
+- Stylus: Meu pré-processador favorito **<3**
 - Vanilla.js: Para fazer a mágica acontecer
