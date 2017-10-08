@@ -1,3 +1,4 @@
 import '../style/app.styl'
+import fetchProducts from './dataSource'
 
-console.log('teste')
+window.onload = fetchProducts
