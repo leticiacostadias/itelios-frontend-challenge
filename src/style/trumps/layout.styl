@@ -9,15 +9,17 @@
 .quarter
     width 25%
 
+.third
+    width 33.333333%
+
 .half
     width 50%
 
 .three-quarters
     width 75%
 
-.quarter, .half, .three-quarters
+.quarter, .half, .three-quarters, .third
     display inline-block
-    padding 0 30px
 
     @media (max-width: $sm) {
       width 100%
@@ -25,8 +27,3 @@
 
 .align-center
     text-align center
-
-// .clearfix
-//     &:after, &:before
-//         content '',
-//         display table
