@@ -7,8 +7,6 @@ export default class Product {
     this.conditions = this.getCondition(product.productInfo.paymentConditions)
     this.interest = product.productInfo.paymentConditions.toLowerCase().includes('com juro')
     this.type = type
-
-    console.log(this)
   }
 
   getImage (src) {

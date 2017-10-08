@@ -6,10 +6,8 @@ export default class Carousel {
     this.pagers = []
     this.size = this.slides.length
     this.activeSlide = 0
-
     this.isMobile = window.matchMedia('only screen and (max-width: 760px)')
     this.isMobile = this.isMobile.matches
-    console.log(this.isMobile)
     this.slidesPerPage = this.isMobile ? 1 : 3
 
     this.renderPagers()

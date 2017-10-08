@@ -24,8 +24,6 @@ const fetchProducts = () => {
 }
 
 fetchProducts().then((response) => {
-  console.log(response)
-
   const visited = new Product(response.item, 'visited')
   visited.render()
 
