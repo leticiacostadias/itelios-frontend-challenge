@@ -27,7 +27,7 @@ export default class Product {
     }
 
     if (string.indexOf(' sem juros')) {
-      end = string.indexOf(' sem juros') - 3
+      end = string.indexOf(' sem juros') - 7
     } else {
       end = string.lenght
     }
@@ -55,7 +55,7 @@ export default class Product {
     imageWrapper.classList.add('align-center')
     title.classList.add('card__title')
     price.classList.add('card__price', 'price--big')
-    price.classList.add('card__price', 'price--small')
+    conditions.classList.add('card__price', 'price--small')
     description.classList.add('card__description')
     button.classList.add('btn')
     icon.classList.add('add-cart')
