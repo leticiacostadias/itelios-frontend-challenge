@@ -1,4 +1,5 @@
 import Product from './productModel'
+import Carousel from './carousel'
 /* global XMLHttpRequest */
 
 const fetchProducts = () => {
@@ -31,8 +32,10 @@ fetchProducts().then((response) => {
   response.recommendation.map((product) => {
     new Product(response.item, 'recommended').render()
   })
+
+  const cycle = new Carousel() // eslint-disable-line
 }).catch((error) => {
-  console.log(error)
+  console.error(error)
 })
 
 export default fetchProducts
