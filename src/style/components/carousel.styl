@@ -1,0 +1,21 @@
+.carousel
+    @extend .full
+    overflow hidden
+
+    @media (max-width: $sm) {
+      width 309px
+    }
+
+    .strip
+        transition transform 0.3s ease-in-out
+
+    .pager
+        @extend .title, .title--big
+        color $gray-quaternary
+        transition color 0.3s ease-in
+
+        &.active
+            color $blue !important
+
+        &__wrapper
+            text-align center
