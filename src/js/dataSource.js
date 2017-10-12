@@ -28,7 +28,7 @@ fetchProducts().then((response) => {
   visited.render()
 
   response.recommendation.map((product) => {
-    new Product(response.item, 'recommended').render()
+    new Product(product, 'recommended').render()
   })
 
   const cycle = new Carousel() // eslint-disable-line
